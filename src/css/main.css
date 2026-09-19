@@ -1,0 +1,38 @@
+#background{
+    background-color: gray;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+}button:hover{
+    background-color: darkgray;
+}
+
+#percentage, #CE, #C, #clear, #divide, #multiply,
+#subtract, #add{
+    background-color: darkgray;
+}
+#percentage:hover, #CE:hover, #C:hover, #clear:hover,
+#divide:hover, #multiply:hover, #subtract:hover,
+#add:hover{
+    background-color: gray;
+}
+
+#equals-to{
+    background-color: aqua;
+}#equals-to:hover{
+    background-color: lightblue;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1px;
+}
