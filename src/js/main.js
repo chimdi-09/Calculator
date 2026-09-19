@@ -20,4 +20,3 @@ function divideTwoNumbers(firstNumber,secondNumber){
     let divisionOfTwoNumbers = firstNumber / secondNumber;
     return(`${firstNumber} / ${secondNumber} = ${divisionOfTwoNumbers}`);
 };divideTwoNumbers(firstNumber,secondNumber);
-
