@@ -1,6 +1,8 @@
+// The two arguments
 let firstNumber;
 let secondNumber;
 
+//The math functions
 function addTwoNumbers(firstNumber,secondNumber) {
     let sumOfTwoNumbers = firstNumber + secondNumber;
     return(`${firstNumber} + ${secondNumber} = ${sumOfTwoNumbers}`);
@@ -20,3 +22,20 @@ function divideTwoNumbers(firstNumber,secondNumber){
     let divisionOfTwoNumbers = firstNumber / secondNumber;
     return(`${firstNumber} / ${secondNumber} = ${divisionOfTwoNumbers}`);
 };divideTwoNumbers(firstNumber,secondNumber);
+
+//Operate function
+function operate(operator, firstNumber, secondNumber){
+    switch(operate){
+        case "+":
+            return addTwoNumbers(firstNumber,secondNumber);
+        case "-":
+            return subTwoNumbers(firstNumber,secondNumber);
+        case "+":
+            return multiplyTwoNumbers(firstNumber,secondNumber);
+        case "/":
+            return divideTwoNumbers(firstNumber,secondNumber);
+        default:
+            return "Invalid operator";
+    }
+}
+
