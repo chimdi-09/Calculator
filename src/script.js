@@ -25,12 +25,12 @@ function divideTwoNumbers(firstNumber,secondNumber){
 
 //Operate function
 function operate(operator, firstNumber, secondNumber){
-    switch(operate){
+    switch(operator){
         case "+":
             return addTwoNumbers(firstNumber,secondNumber);
         case "-":
             return subTwoNumbers(firstNumber,secondNumber);
-        case "+":
+        case "*":
             return multiplyTwoNumbers(firstNumber,secondNumber);
         case "/":
             return divideTwoNumbers(firstNumber,secondNumber);
