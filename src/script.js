@@ -39,3 +39,13 @@ function operate(operator, firstNumber, secondNumber){
     }
 }
 
+//add event listeners to some buttons
+const display = document.getElementById("calculations");
+const numberedButtons = document.querySelectorAll(".numbered-button");
+
+//add event listeners to the buttons
+numberedButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        display.textContent += button.textContent;
+    })
+})
