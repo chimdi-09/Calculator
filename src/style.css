@@ -32,7 +32,8 @@ button{
     background-color: gray;
     border: none;
     border-radius: 4px;
-}button:hover{
+}
+button:hover{
     background-color: darkgray;
 }
 
@@ -48,7 +49,8 @@ button{
 
 #equals-to{
     background-color: aqua;
-}#equals-to:hover{
+}
+#equals-to:hover{
     background-color: lightblue;
 }
 
